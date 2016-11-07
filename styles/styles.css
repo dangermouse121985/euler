@@ -1,0 +1,67 @@
+#header {
+	background-color: #008b8b;
+	height: 250px;
+	width: 100%;
+	display: inline-block;
+}
+
+#header_image {
+	width: 200px;
+	height: 250px;
+	float:left;
+}
+
+#logo {
+	margin: 25px auto 25px auto;
+	height: auto;
+	width: 200px;
+	float: left;
+}
+
+#header_words {
+	height: 250px;
+	color: white;
+}
+
+h1 {
+	margin: 105px 0px 105px 0px;
+	font-size: 40px;
+}
+
+#headerLinks {
+	width: 100%;
+	height:50px;
+	background-color: #008b8b;
+
+	
+}
+
+.probHeader {
+	
+	width: 33.3333333%;
+	float: left;
+	display:inline-block;
+	height: 50px;
+}
+
+#euOnePlace, #euTwoPlace, #euThreePlace {
+	height: 600px;
+	
+}
+
+#euOnePlace {
+
+}
+
+#euTwoPlace {
+	background-color: #008b8b;
+}
+
+#euThreePlace {
+
+}
+
+#footer {
+	background-color: #008b8b;
+	height: 50px;
+}

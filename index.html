@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	<script src="scripts/problem1.js"></script>
-	<title></title>
+	<script type="text/javascript">
+		function noenter()
+		{
+			return !(window.event && window.event.keyCode == 13);
+		}
+	</script>
+	<title>Euler Examples</title>
 </head>
 <body>
-	<form id="euler1Num">
-		<input type="text" id="num1">
-		<input type="button" value="Submit" onclick="euler1()">
-	</form>
-	<div>Answer: <span class="output" id="answer1"></div>
+	<div id="header">
+		<div id="header_image">
+			<img id="logo" src="images/davidlogo.png">
+		</div>
+		<div id="header_words">
+			<h1>The Odin Project: Project Euler Examples</h1>
+		</div>
+	</div>
+	<div id="headerLinks">
+		<a href="#problemOne" class="probHeader">
+			<div id="probOne" class="links">
+				Problem One
+
+			</div>
+		</a>
+		<div id="probTwo" class="links">
+			<a href="#problemTwo" class="probHeader">Problem Two</a>
+		</div>
+		<div id="probThree" class="links">
+			<a href="#ProblemThree" class="probHeader">Problem Three</a>
+		</div>
+	</div>
+	<div id="euOnePlace">
+		<a name="problemOne"></a>
+		<form id="euler1Num">
+			<input type="text" id="num1" onkeypress="return noenter()">
+			<input type="button" id="enter" value="Submit" onclick="euler1()">
+		</form>
+		<div>Answer: <span class="output" id="answer1"></span></div>
+		<a href="https://www.google.com">google</a>
+	</div>
+
+	<div id="euTwoPlace">
+		<a name="problemTwo">
+		
+	</div>
+
+	<div id="euThreePlace">
+		<a name="ProblemThree">
+		
+	</div>
+
+	<div id="footer">
+		
+	</div>
 </body>
 </html>
