@@ -32,16 +32,28 @@ h1 {
 	width: 100%;
 	height:50px;
 	background-color: #008b8b;
-
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	vertical-align: center;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px
 	
 }
 
 .probHeader {
 	
-	width: 33.3333333%;
-	float: left;
-	display:inline-block;
+	width: 33.1%;
+	/*float: left;*/
+	display: inline-block;
 	height: 50px;
+	text-decoration: none;
+}
+
+.probHeader:hover {
+	background-color: #008080;
 }
 
 #euOnePlace, #euTwoPlace, #euThreePlace {
