@@ -3,6 +3,9 @@
 	height: 250px;
 	width: 100%;
 	display: inline-block;
+	left: 100px;
+	right: 100%;
+	margin-top: 40px;
 }
 
 #header_image {
@@ -39,13 +42,16 @@ h1 {
 	vertical-align: center;
 	text-align: center;
 	line-height: 50px;
-	font-size: 25px
+	font-size: 25px;
+	display: block;
+	position: absolute;
+	display: flex;
 	
 }
 
 .probHeader {
 	
-	width: 33.1%;
+	width: 33%;
 	/*float: left;*/
 	display: inline-block;
 	height: 50px;
